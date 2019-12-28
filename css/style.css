@@ -1,0 +1,67 @@
+/*BASE STYLE*/
+/*common style*/
+body {
+  background: #333333;
+  color: #ffffff; }
+
+/*LAYOUT STYLE*/
+/*header style*/
+header nav {
+  border-bottom: 3px solid #008ed6;
+  background: #292b2c;
+  opacity: .7; }
+
+/*MODULE STYLE*/
+/*home-main-section style*/
+#home-section {
+  background: url("../../img/home.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 700px; }
+  #home-section .fa {
+    background: #fff;
+    color: #008ed6;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px; }
+  #home-section .card-form {
+    opacity: .8; }
+  #home-section .home-inner {
+    padding-top: 150px;
+    padding-bottom: 50px; }
+
+/*explore-main-section style*/
+#explore-main-section .fa {
+  color: #fff;
+  background: #333;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 4px;
+  margin-top: 2px; }
+
+/*create-main-section style*/
+#create-main-section .fa {
+  color: #008ed6;
+  background: #ffffff;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 4px;
+  margin-top: 2px; }
+
+/*share-main-section style*/
+#share-main-section .fa {
+  color: #fff;
+  background: #333;
+  font-size: 30px;
+  border-radius: 5px;
+  padding: 4px;
+  margin-top: 2px; }
+
+/*STATE STYLE*/
+/*media query style*/
+@media (max-width: 768px) {
+  #home-section h1 {
+    font-size: 36px; } }
